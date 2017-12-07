@@ -1,7 +1,7 @@
 /* Your custom styles */
 .img-thumbnail {
     border: 0;
-    height:350px;
+    height:400px;
     width:100%;
 }
 .no-gutter > [class*='col'] {
