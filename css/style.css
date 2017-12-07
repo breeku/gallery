@@ -1,8 +1,8 @@
 /* Your custom styles */
 .img-thumbnail {
     border: 0;
+    width: 400px;
     height: 400px;
-    width: 400%;
     overflow: hidden;
 }
 .no-gutter > [class*='col'] {
