@@ -20,31 +20,41 @@
 <body>
 
     <div class="container">
-     <div style="height: 15vh">
+     <div style="height: 20vh">
         <div class="flex-center flex-column">
 
             <h1 class="animated fadeIn mb-4">Lorem Ipsum</h1>
+     
+              <div align="center">
 
-        </div>
+               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="all">kaikki</button>
+               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="kissa">kissa</button>
+               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="koira">koira</button>
+
+       </div>
       </div>
     </div>
 
+
+
+
   <div class="container">   
+
    <div class="row no-gutter">
 
     <div class="col">
-     <div class="thumbnail">
-      <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e04e9859300187.5a1da40e5d21c.jpg" class="animated fadeIn mb-4" data-fancybox="gallery" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e04e9859300187.5a1da40e5d21c.jpg" alt="" class="img-thumbnail" />
+     <div class="thumbnail filter kissa">
+      <a href="img/animals/kissa.jpg" class="animated fadeIn mb-4" data-fancybox="kissa" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/kissa.jpg" alt="" class="img-thumbnail" />
      </a>
 	</div>
    </div>
 
 
     <div class="col">
-     <div class="thumbnail">
-      <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cc5f9f59300187.5a1da40e5cf05.jpg" class="animated fadeIn mb-4" data-fancybox="gallery" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cc5f9f59300187.5a1da40e5cf05.jpg" alt="" class="img-thumbnail" />
+     <div class="thumbnail filter kissa">
+      <a href="img/animals/kissa2.jpg" class="animated fadeIn mb-4" data-fancybox="kissa" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/kissa2.jpg"  alt="" class="img-thumbnail img-responsive" />
      </a>
 	</div>
    </div>
@@ -53,18 +63,18 @@
    <div class="row no-gutter">
 
     <div class="col">
-     <div class="thumbnail">
-      <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f704259300187.5a1da40e5cc07.jpg" class="animated fadeIn mb-4" data-fancybox="gallery" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f704259300187.5a1da40e5cc07.jpg" alt="" class="img-thumbnail" />
+     <div class="thumbnail filter koira">
+      <a href="img/animals/koira.jpeg" class="animated fadeIn mb-4" data-fancybox="koira" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/koira.jpeg" alt="" class="img-thumbnail" />
      </a>
 	</div>
    </div>
 
 
     <div class="col">
-     <div class="thumbnail">
-      <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/322b7259300187.5a1da40e5c96e.jpg" class="animated fadeIn mb-4" data-fancybox="gallery" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/322b7259300187.5a1da40e5c96e.jpg" alt="" class="img-thumbnail" />
+     <div class="thumbnail filter koira">
+      <a href="img/animals/koira1.jpg" class="animated fadeIn mb-4" data-fancybox="koira" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/koira1.jpg" alt="" class="img-thumbnail" />
      </a>
 	</div>
    </div>
@@ -86,6 +96,8 @@
     <!-- fancybox -->
     <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <!-- custom -->
+    <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 
