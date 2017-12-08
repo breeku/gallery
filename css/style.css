@@ -1,9 +1,22 @@
 /* Your custom styles */
+.image {
+    display: block;
+    text-indent: -1000px; /* hide link text */
+    overflow: hidden;
+    background-size: cover;
+    width: 33%;
+    height: 200px;
+    float: left;
+}
 .img-thumbnail {
     border: 0;
     width: 400px;
     height: 400px;
     overflow: hidden;
+}
+.grid-content img {
+  max-height: 400px;
+  width: auto;
 }
 .no-gutter > [class*='col'] {
     padding-right:0;
