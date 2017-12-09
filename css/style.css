@@ -1,6 +1,7 @@
-/* Your custom styles */
 body {
-    padding-top: 100px;
+    padding-top: 110px;
+    background: linear-gradient(181deg, #fbfbfb, #e1d8ff) center center fixed; ;
+    background-size: cover;
 }
 .img-thumbnail {
     border: 0;
@@ -11,11 +12,9 @@ body {
 }
 .filter-button:hover
 {
-    font-size: 14px;
-    border: 1px solid #595959;
-    border-radius: 5px;
-    text-align: center;
+    border: 1px solid #f7f7f7;
     color: #ffffff;
-    background-color: #595959;
+    background-color: #f7f7f7;
 
 }
+
