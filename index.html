@@ -16,69 +16,72 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
 </head>
-
 <body>
 
-    <div class="container">
-        <div class="flex-center flex-column">
+<!-- navbar -->
+<nav class="navbar justify-content-center fixed-top navbar-light bg-light">
+    <div class="button-group filter-button-group">
+    <button data-filter="*" class="animated fadeIn mb-4 btn btn-secondary filter-button">kaikki</button>
+    <button data-filter=".kissa" class="animated fadeIn mb-4 btn btn-secondary filter-button">kissa</button>
+    <button data-filter=".koira" class="animated fadeIn mb-4 btn btn-secondary filter-button">koira</button>
+    </div>
+</nav>
+<!-- /navbar -->
 
-            <h1 class="animated fadeIn mb-4">Lorem Ipsum</h1>
-     
-              <div align="flex-center">
+<!-- images -->
 
-               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="all">kaikki</button>
-               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="kissa">kissa</button>
-               <button class="animated fadeIn mb-4 btn btn-dark filter-button" data-filter="koira">koira</button>
+<div class="container">
+<div class="row no-gutter">    
 
-       </div>
+    <div class="col-sm-6">
+    <div class="grid">
+      <div class="element-item kissa">
+      <a href="img/animals/kissa.jpg" class="animated fadeIn mb-4" data-fancybox="images" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/kissa.jpg" class="img-thumbnail" />
+      </a>
       </div>
     </div>
-
-
-    <div class="container">
-
-    <div class="row justify-content-md-center no-gutter">
-    <div class="col-auto">
-     <div class="filter kissa">
-      <a href="img/animals/kissa.jpg" class="animated fadeIn mb-4" data-fancybox="kissa" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="img/animals/kissa.jpg" alt="" class="img-thumbnail" />
-     </a>
     </div>
-	</div>
 
 
+    <div class="col-sm-6">
+    <div class="grid">
+      <div class="element-item kissa">
+      <a href="img/animals/kissa2.jpg" class="animated fadeIn mb-4" data-fancybox="images" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/kissa2.jpg" class="img-thumbnail" />
+	  </a>
+      </div>
+    </div>
+    </div>
 
-    <div class="col-auto">
-     <div class="filter kissa">
-      <a href="img/animals/kissa2.jpg" class="animated fadeIn mb-4" data-fancybox="kissa" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="img/animals/kissa2.jpg"  alt="" class="img-thumbnail" />
-     </a>
-	</div>
-   </div>
-   </div>
+   
+    <div class="w-100"></div> 
+    <div class="col-sm-6">
+    <div class="grid">
+      <div class="element-item koira">
+      <a href="img/animals/koira.jpeg" class="animated fadeIn mb-4" data-fancybox="images" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/koira.jpeg" class="img-thumbnail" />
+      </a>
+      </div>
+    </div>
+    </div>
 
-
-
-    <div class="row justify-content-md-center no-gutter">
-    <div class="col-auto">
-     <div class="filter koira">
-      <a href="img/animals/koira.jpeg" class="animated fadeIn mb-4" data-fancybox="koira" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="img/animals/koira.jpeg" alt="" class="img-thumbnail" />
-     </a>
-	</div>
-   </div>
-
-    <div class="col-auto">
-     <div class="filter koira">
-      <a href="img/animals/koira1.jpg" class="animated fadeIn mb-4" data-fancybox="koira" data-options='{"loop" : "true"}' data-caption="My caption">
-	  <img src="img/animals/koira1.jpg" alt="" class="img-thumbnail" />
-     </a>
-	</div>
-   </div>
+ 
+    <div class="col-sm-6">
+    <div class="grid">
+      <div class="element-item koira">
+      <a href="img/animals/koira1.jpg" class="animated fadeIn mb-4" data-fancybox="images" data-options='{"loop" : "true"}' data-caption="My caption">
+	  <img src="img/animals/koira1.jpg" class="img-thumbnail" />
+	  </a>
+      </div>
+    </div>
+    </div>
 
 </div>
+</div>
+</div>
 
-
+<!-- /images -->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
@@ -92,6 +95,8 @@
     <!-- fancybox -->
     <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <!-- isotope filter -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- custom -->
     <script type="text/javascript" src="js/script.js"></script>
 
